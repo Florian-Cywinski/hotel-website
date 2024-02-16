@@ -11,3 +11,5 @@ Development steps:
 
 2. Creating the Showcase & Home Info part
 
+3. Features & Footer part
+

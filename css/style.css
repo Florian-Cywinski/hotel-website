@@ -75,7 +75,7 @@ p {
   color: #333;
 }
 
-.clr {
+.clr {    /* To stop float */
   clear: both;
 }
 
@@ -172,4 +172,22 @@ p {
   padding-bottom: 30px;
 }
 
+/* Features - The part with the three boxes (Great Location - Free Meals - Fitness Room) */
+.box {
+  float: left;  /* To align the three boxes horizontally */
+  width: 33.3%; /* Tohave all three boxes the same width */
+  padding: 50px;  /* This is not added to the box size (33.3) coz of box-sizing: border-box; */
+  text-align:center;
+}
 
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
