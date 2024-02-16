@@ -1,10 +1,13 @@
 # Hotel Website
 
-A simple Hotel Website without CSS grid layout and CSS flexbox layout - from Brad Trversy's 'Modern HTML & CSS From The Beginning' course.
+A simple Hotel Website without CSS grid layout and CSS flexbox layout - from Brad Traversy's 'Modern HTML & CSS From The Beginning' course.
 
-Try out the app :) - https:
+Try out the app :) - https://hotel-website-fc.netlify.app/
 
 
 Development steps:
 
-1. Creating the navigation bar
+1. Creating the Navigation Bar
+
+2. Creating the Showcase & Home Info part
+
