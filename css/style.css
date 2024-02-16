@@ -1,5 +1,4 @@
-/* Reset - to reset the default values */
-* {
+* { /* To reset the default values */
   margin: 0;
   padding:0;
   box-sizing: border-box; /* To keep the box size - independent of padding */
@@ -79,12 +78,13 @@ p {
   clear: both;
 }
 
-.l-heading {
+.l-heading {  /* Large Heading */
+  padding-top: 10px;
   font-size: 40px;
 }
 
 /* Padding */
-.py-1 { padding: 10px 0; }
+.py-1 { padding: 10px 0; }  /* py stands for padding on the y-axis (top and bottom) */
 .py-2 { padding: 20px 0; }
 .py-3 { padding: 30px 0; }
 
@@ -180,8 +180,56 @@ p {
   text-align:center;
 }
 
-.box i {
+.box i {  /* Refers to the icons */
   margin-bottom: 10px;
+}
+
+/* About Info */
+#about-info .info-right {
+  float: right; /* To have the image n the right side */
+  width: 50%; /* To take 50 % of the container */
+  min-height: 100%; /* That the image takes up the whole space */
+}
+
+#about-info .info-right img {
+  display: block; /* This styles the inline-level elements (img) to block style - the img can now be set into the middle by using margin: auto which is not gonna work with inline elements */
+  margin: auto;
+  width: 70%; /* To take 70 % of the image */
+  border-radius: 50%; /* To make it a circular image */
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%; /* That the content takes up the whole space */
+}
+
+/* Testimonials */
+#testimonials { /* The testimonial / review <section> */
+  height: 600px;
+  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {  /* The testimonial / reviews div */
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px; /* To have rounded corners */
+  opacity: 0.9; /* To have the reviews a bit transparent */
+}
+
+#testimonials .testimonial img {  /* The testimonial / reviews images */
+  width: 100px;
+  float: left;  /* To have the image on the left side */
+  margin-right: 20px; /* To push the text over */
+  border-radius: 50%; /* To have circular images */
 }
 
 /* Footer */
