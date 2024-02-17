@@ -13,3 +13,8 @@ Development steps:
 
 3. Features & Footer part
 
+4. About Page part
+
+5. Contact Page
+
+

@@ -232,6 +232,33 @@ p {
   border-radius: 50%; /* To have circular images */
 }
 
+/* Contact Form */
+#contact-form .form-group { /* #contact-form is for the <section> - .form-group includes the labels and inputs */
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,  /* :focus is a pseudo selector which gives the input field / textarea a blue frame when clicked in it (kind of an active status) */ 
+#contact-form textarea:focus {
+  outline: none;  /* To get rid of the outlines when clicked in */
+  border-color: #f7c08a;  /* To change the border-color when clicked in */
+}
+
 /* Footer */
 #main-footer {
   text-align: center;
