@@ -81,6 +81,7 @@ p {
 .l-heading {  /* Large Heading */
   padding-top: 10px;
   font-size: 40px;
+  line-height: 1.2; /* Unitless values: use this number multiplied by the element's font size */
 }
 
 /* Padding */
@@ -99,7 +100,7 @@ p {
   color: #fff;
 }
 
-#navbar h1 {  /* This is the 'logo' - h1 with HBT */
+#navbar .logo {  /* This is the 'logo' - h1 with HBT */
   float: left;  /* To bring the logo (without using flex) to the left side of the navbar */
   padding-top: 20px;
 }
@@ -149,7 +150,7 @@ p {
 
 /* Home Info - The part below the showcase (<section>) */
 #home-info {
-  height: 400px;  /* To set the height of this sectiom */
+  height: 450px;  /* To set the height of this sectiom */
 }
 
 #home-info .info-img {  /* The left half of the home-info section */
@@ -206,7 +207,8 @@ p {
 
 /* Testimonials */
 #testimonials { /* The testimonial / review <section> */
-  height: 600px;
+  /* height: 600px; */
+  height: 100%;
   background: url('../img/test-bg.jpg') no-repeat center center/cover;
   padding-top: 100px;
 }

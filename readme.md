@@ -17,4 +17,6 @@ Development steps:
 
 5. Contact Page
 
+6. Add Responsiveness for Mobile Devices
+
 

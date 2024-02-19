@@ -1,0 +1,67 @@
+/* This is just to test whether it works (max-width: 768px - below this limit there is only a white screen) */
+/* body {
+  display: none;  
+} */
+
+#navbar .logo {
+  float: none;  /* To be able to set the text in the middle - see next line */
+  text-align: center;
+}
+
+#navbar ul, #navbar ul li {
+  float: none;    /* To get rid of the float property on both the ul element and the li elements */
+}
+
+#navbar ul li a {
+  padding: 5px; /* To change it from 20px to 5px */
+  border-bottom: #444 dotted 1px; /* To add a new style to visibly separate the links (which are now below each other) */
+}
+
+/* Showcase */
+#showcase {
+  height: 100%; /* To change  padding-top and padding-bottom on #showcase .showcase-content */
+}
+
+#showcase .showcase-content {
+  padding-top: 70px;  /* To change it from 170px */
+  padding-bottom: 30px; /* To add padding on the bottom */
+}
+
+/* Home Info */
+#home-info {
+  height: 550px;  /* To change it from 450px to 550px */
+}
+
+#home-info .info-img {
+  display: none;  /* On a mobile screen we get rid of the image */
+}
+
+#home-info .info-content {
+  float: none;  /* Since the image has left the page flot is no longer neeeded */
+  width: 100%;  /* Since the image has left the page the info content can now take up the entire space (not only 50 %) */
+}
+
+/* Boxes */
+.box {  /* To arrange the three boxes (which are next to each other on a large screen) under each other */
+  float: none;
+  width: 100%;
+}
+
+/* About */
+#about-info .info-right, #about-info .info-left { /* To arrange the two parts (left: text; right: img; which are next to each other on a large screen) under each other */
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-right { /* To set the image a litle bit down */
+  margin-top: 30px;
+}
+
+.l-heading {  /* To center the large heading */
+  text-align: center;
+}
+
+/* Contact */
+#contact-info .box {
+  border-bottom: #444 dotted 1px; /* To add a new style to visibly separate the three boxes (which have the same color and are now below each other) */
+}
